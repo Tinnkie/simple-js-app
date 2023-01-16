@@ -1,4 +1,2 @@
-alert('Hello world');
-
-let favoriteFood = 'Pizza';
-document.write (favoriteFood);
+// A list of 3 Pokemon objects
+let pokemonList = [{name: "Butterfree", height: 1, types:['bug', 'flying']},{name: "Beedrill", height: 2, types:['bug', 'poison']},{name: "Jigglypuff", height: 1, types:['fairy', 'normal']}]

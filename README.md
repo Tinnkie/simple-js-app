@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 # JavaScript App *(Pokédex)*
 
@@ -12,6 +11,3 @@
 
 #### Check my code: <a href=https://github.com/Tinnkie/portfolio-website target="_blank"> GitHub </a>
 #### Check my Portfolio Website: <a href=https://tina-atanasova.netlify.app/index.html target="_blank"> Tina Atanasova </a>
-=======
-# simple-js-app
->>>>>>> 292f8f9317a18062929128d5d536a45beb5a92e2

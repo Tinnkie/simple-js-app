@@ -1,19 +1,46 @@
-// A list of 3 Pokemon objects
-let pokemonList = [
-    {name: 'Butterfree', height: 3.07, types:['bug', 'flying']},
-    {name: 'Beedrill', height: 3.03, types:['bug', 'poison']},
-    {name: 'Jigglypuff', height: 1.08, types:['fairy', 'normal']}
-];
+let pokemonRepository = (function(){
+    let pokemonList = [
+        {name: 'Butterfree', height: 3.07, types:['bug', 'flying']},
+        {name: 'Beedrill', height: 3.03, types:['bug', 'poison']},
+        {name: 'Jigglypuff', height: 1.08, types:['fairy', 'normal']}
+    ]
+
+
+    function add (pokemon){
+        pokemonList.push (pokemon);
+    }
+
+    function getAll (){
+        return pokemonList;
+    }
+
+    return {
+        add: add,
+        getAll: getAll
+    };
+}) ();
+
+
+// UNUSED (old) CODE: A list of 3 Pokemon objects
+// let pokemonList = [
+//     {name: 'Butterfree', height: 3.07, types:['bug', 'flying']},
+//     {name: 'Beedrill', height: 3.03, types:['bug', 'poison']},
+//     {name: 'Jigglypuff', height: 1.08, types:['fairy', 'normal']}
+// ];
+
 
 // A list of Pokémon in forEach() function
 pokemonList.forEach (function(pokemon){
     if (pokemon.height > 2.00){
-        document.write ('<p>' + pokemon.name + ' (height ' + pokemon.height +') - Wow, that\'s big! </p>');
+        document.write (pokemon.name + ' (height ' + pokemon.height + ') - Wow, that\'s big!' + '<br>')
     } else {
-        document.write ('<p>' + pokemon.name + ' (height ' + pokemon.height +') </p>');
+        document.write (pokemon.name + ' (height ' + pokemon.height + ')' + '<br>')
     }
 });
 
+pokemonRepository.getAll().forEach(function(pokemon) {
+    document.write(pokemon.name + pokemon.height);
+});
 
 
 

@@ -11,6 +11,28 @@ body {
 .page-header__item {
     width: 20%;
     height: fit-content;
+    align-items: center;
+}
+
+.pokemon-list {
+    list-style-type: none;
+}
+
+.button-class {
+    color: #AC5859;
+    display: inline-block;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 2px;
+    padding: 10px;
+    margin: 10px 0px;
+    width: 300px;
+    height: 30px;
+    font-size: 16px;
+    background: #222;
+    border-radius: 10px;
+    box-shadow: 2px 2px 0px 0px #AC5859;
+    border-color: #222;
 }
 
     

@@ -12,12 +12,19 @@
   </head>
   <body>
     <header>
-      <img src="img/pokedex_logo.svg" alt="Logo for Pokedex App" class="page-header__item">
+      <nav class="navbar navbar-light sticky-top">
+        <img src="img/pokedex_logo.svg" href="index.html" alt="Logo for Pokedex App" class="page-header__item">
+        <span class="navbar-brand mb-0"></span>
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="Pokemon" aria-label="Search">
+          <button class="btn btn-warning my-2 my-sm-0" type="button">Search</button>
+        </form>
+      </nav>
     </header>
     <div id="modal-container"></div>
     <ul class="pokemon-list list-group"></ul>
 
-    <div class="modal fade" id="pokemonModal" tabindex="-1" role="dialog" aria-labelledby="pokemonModalLabel" aria-hidden="true">
+    <div class="modal fade show" id="pokemonModal" tabindex="-1" role="dialog" aria-labelledby="pokemonModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
@@ -26,7 +33,9 @@
               <span aria-hidden="true">&times</span>
             </button>
           </div>
-          <div class="modal-body">
+          <div class="modal-body"></div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           </div>
         </div>
       </div>

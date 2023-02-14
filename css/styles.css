@@ -47,6 +47,16 @@ body {
     height: fit-content;
 }
 
+<<<<<<< Updated upstream
+=======
+@media all and (max-width: 750px) {
+  .page-header__item {
+    width: 30%;
+    padding-bottom: 4px;
+  }
+}
+
+>>>>>>> Stashed changes
 .pokemon-list {
     list-style-type: none;
     display: inline;

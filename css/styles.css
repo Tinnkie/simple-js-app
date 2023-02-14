@@ -43,8 +43,16 @@ body {
     }
 
 .page-header__item {
+    flex: 0 1 150px;
     width: 10%;
     height: fit-content;
+}
+
+@media all and (max-width: 750px) {
+  .page-header__item {
+    width: 30%;
+    padding-bottom: 5px;
+  }
 }
 
 .pokemon-list {

@@ -9,5 +9,6 @@
 2. CSS
 3. JavaScript
 
+#### Check deployed code: <a href=https://tinnkie.github.io/simple-js-app/ target="_blank"> Pokedex </a>
 #### Check my code: <a href=https://github.com/Tinnkie/portfolio-website target="_blank"> GitHub </a>
 #### Check my Portfolio Website: <a href=https://tina-atanasova.netlify.app/index.html target="_blank"> Tina Atanasova </a>

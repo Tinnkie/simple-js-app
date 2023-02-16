@@ -4,6 +4,8 @@
 ### This is a small web application with HTML, CSS, and JavaScript that loads data from an external API and enables the viewing of data points in detail.
 <br>
 
+<img src="img/pokedex.png"></img>
+
 #### In this project I used the following technologies:
 1. HTML
 2. CSS
